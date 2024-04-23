@@ -1,3 +1,5 @@
 import ZAminofix
 c=ZAminofix.Client()
-print(c.login("z20518906@gmail.com","ya12345"))
+while True:
+  print("ok")
+#print(c.login("z20518906@gmail.com","ya12345"))
