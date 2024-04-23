@@ -1,5 +1,10 @@
-import ZAminofix
-c=ZAminofix.Client()
-while True:
-  print("ok")
-#print(c.login("z20518906@gmail.com","ya12345"))
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'مرحبًا، هذا خادم Flask يعمل!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
